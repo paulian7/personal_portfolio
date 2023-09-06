@@ -11,11 +11,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mont: ["var(--font-mont)", ...fontFamily.sans],
+        inter: ["var(--font-inter)", ...fontFamily.sans],
       },
       colors: {
-        navy: "#242636",
-        lightBlue: "#C3D7E1",
+        lightBlue: "#9ED9FC",
+        grayBlue: "#ACC4D1", 
+        darkBlue: "244454",
+
       },
     },
   },
