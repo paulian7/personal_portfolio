@@ -1,10 +1,13 @@
-import WelcomePage from '@/components/WelcomePage'
-import Image from 'next/image'
+import WelcomePage from "@/components/WelcomePage";
+import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <WelcomePage />
-    </main>
-  )
+    <div>
+      <div className="flex items-center justify-center flex-col">
+        <WelcomePage />
+      </div>
+    </div>
+  );
 }
